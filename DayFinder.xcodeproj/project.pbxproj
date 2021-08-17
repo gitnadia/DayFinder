@@ -13,6 +13,11 @@
 		ACB15E8A26CADB46006DCFEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB15E8826CADB46006DCFEB /* Main.storyboard */; };
 		ACB15E8C26CADB48006DCFEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB15E8B26CADB48006DCFEB /* Assets.xcassets */; };
 		ACB15E8F26CADB48006DCFEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB15E8D26CADB48006DCFEB /* LaunchScreen.storyboard */; };
+		ACB15E9A26CBDB99006DCFEB /* AppearenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB15E9926CBDB99006DCFEB /* AppearenceViewController.swift */; };
+		ACB15E9C26CBDE40006DCFEB /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB15E9B26CBDE40006DCFEB /* InfoViewController.swift */; };
+		ACB15E9F26CBEBA2006DCFEB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB15E9E26CBEBA2006DCFEB /* Extensions.swift */; };
+		ACB15EA126CC1D77006DCFEB /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB15EA026CC1D77006DCFEB /* PersonViewController.swift */; };
+		ACB15EA326CC24E5006DCFEB /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB15EA226CC24E5006DCFEB /* AccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		ACB15E8B26CADB48006DCFEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACB15E8E26CADB48006DCFEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACB15E9026CADB48006DCFEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACB15E9926CBDB99006DCFEB /* AppearenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearenceViewController.swift; sourceTree = "<group>"; };
+		ACB15E9B26CBDE40006DCFEB /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		ACB15E9E26CBEBA2006DCFEB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		ACB15EA026CC1D77006DCFEB /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		ACB15EA226CC24E5006DCFEB /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 		ACB15E8126CADB46006DCFEB /* DayFinder */ = {
 			isa = PBXGroup;
 			children = (
+				ACB15E9D26CBEB68006DCFEB /* Extensions */,
 				ACB15E9626CADB62006DCFEB /* App Delegate */,
 				ACB15E9826CADC05006DCFEB /* Controller */,
 				ACB15E9726CADBF8006DCFEB /* View */,
@@ -87,8 +98,20 @@
 			isa = PBXGroup;
 			children = (
 				ACB15E8626CADB46006DCFEB /* ViewController.swift */,
+				ACB15E9926CBDB99006DCFEB /* AppearenceViewController.swift */,
+				ACB15E9B26CBDE40006DCFEB /* InfoViewController.swift */,
+				ACB15EA026CC1D77006DCFEB /* PersonViewController.swift */,
+				ACB15EA226CC24E5006DCFEB /* AccountViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		ACB15E9D26CBEB68006DCFEB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ACB15E9E26CBEBA2006DCFEB /* Extensions.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,9 +184,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB15E9A26CBDB99006DCFEB /* AppearenceViewController.swift in Sources */,
+				ACB15E9F26CBEBA2006DCFEB /* Extensions.swift in Sources */,
+				ACB15EA326CC24E5006DCFEB /* AccountViewController.swift in Sources */,
 				ACB15E8726CADB46006DCFEB /* ViewController.swift in Sources */,
 				ACB15E8326CADB46006DCFEB /* AppDelegate.swift in Sources */,
 				ACB15E8526CADB46006DCFEB /* SceneDelegate.swift in Sources */,
+				ACB15E9C26CBDE40006DCFEB /* InfoViewController.swift in Sources */,
+				ACB15EA126CC1D77006DCFEB /* PersonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

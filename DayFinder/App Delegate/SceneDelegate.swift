@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  DayFinder
 //
-//  Created by nadezda.gura on 16/08/2021.
+//  Created by nadezda.gura 
 //
 
 import UIKit

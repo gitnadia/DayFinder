@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  DayFinder
 //
-//  Created by nadezda.gura on 
+//  Created by nadezda.gura
 //
 
 import UIKit
@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    //MARK: - findWeekdayTapped
     @IBAction func findWeekdayTapped(_ sender: Any) {
         let calendar = Calendar.current
         var dateComponents = DateComponents()
@@ -80,10 +81,21 @@ class ViewController: UIViewController {
             self.present(popUp, animated: true, completion: nil)
         }
         
-        
-        
+    }
+  
+    // MARK: - Navigation
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "dayFinder"{
+            // Get the new view controller using segue.destination.
+            let vc = segue.destination as! InfoViewController
+            // Pass the selected object to the new view controller.
+            vc.infoText = "DayFinder APP HELPS YOU \nTO FIND WEEKDAY FOR GIVEN DATE"
+            vc.descText = "Xcode 5 Lesson"
+    }
     }
 }
+
     
     
         
